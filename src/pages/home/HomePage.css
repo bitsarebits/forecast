@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap");
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for form */
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Increased width */
+    text-align: center;
+}
+
+h2 {
+    color: #007bff; /* Blue text color */
+    font-size: 48px; /* Larger font size */
+    font-family: "Fredoka", sans-serif; /* Rounded font style */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Spacing between letters */
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+input[type="text"] {
+    padding: 10px; /* Reduced padding */
+    border: 1px solid #007bff; /* Border with contrast color */
+    border-radius: 10px; /* More rounded corners */
+    font-size: 16px; /* Proportional font size */
+    width: 100%;
+    text-align: center; /* Center the text inside the input */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-top: 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px; /* Larger font size */
+    color: #000000; /* Black text color */
+    justify-content: center; /* Center the label content */
+}
+
+button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    padding: 15px 25px; /* Increased padding */
+    border-radius: 20px; /* More rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 18px; /* Larger font size */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
